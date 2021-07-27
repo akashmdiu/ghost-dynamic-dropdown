@@ -1,7 +1,6 @@
 li.menu-item-has-children {
     position: relative;
-    padding-right: 35px!important;
-    display: inline;
+    /* display: inline; */
 }
 
 .menu-item-has-children svg {
@@ -35,4 +34,8 @@ li.menu-item-has-children:hover ul.ghost-submenu {
 
 ul.ghost-submenu li {
     list-style: none;
+}
+
+ul li {
+    opacity: 0;
 }
