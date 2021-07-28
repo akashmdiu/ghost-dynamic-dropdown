@@ -39,3 +39,7 @@ ul.ghost-submenu li {
 ul li {
     opacity: 0;
 }
+
+li.nav-item.menu-item-has-children.menu-item-has-megamenu ul.ghost-submenu {
+    width: 100vh;
+}
