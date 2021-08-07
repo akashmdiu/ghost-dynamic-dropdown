@@ -206,6 +206,10 @@
 
         $(`.${hasChildrenClasses}`).append(hasChildrenIcon);
 
+        if(!$(hasChildrenClasses).length){
+            $(targetElement).css("opacity", "1");
+        }
+
         // Using loop to reach dropdown parent element
         for (let i = 0; i < parentLen; i++) {
 
