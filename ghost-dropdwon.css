@@ -1,8 +1,8 @@
 li.menu-item-has-children {
     position: relative;
-    /* display: inline; */
+    padding-right: 20px!important;
+    display: inline-block;
 }
-
 .menu-item-has-children svg {
     position: absolute;
     right: 0px;
