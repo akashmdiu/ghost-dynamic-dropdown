@@ -204,6 +204,8 @@
             }
         });
 
+        $(targetElement).css("opacity", "1");
+
         $(`.${hasChildrenClasses}`).append(hasChildrenIcon);
 
         if(!$(hasChildrenClasses).length){
