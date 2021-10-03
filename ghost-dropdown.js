@@ -41,7 +41,7 @@
 
                 if (mLsubitem) {
 
-                    if (elIndex + 1 >= mLparentIndex[i + 1]) { // Each loop will be break
+                    if (elIndex + 1 >= mLparentIndex[i + 1] + 1) { // Each loop will be break
                         return false; //Stoped each loop 
                     }
 
